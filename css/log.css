@@ -1,0 +1,47 @@
+.list-group-item.active {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+.history-page .history-list {
+  height: 534px !important;
+}
+
+.card .card-body {
+  height: auto !important;
+  overflow: auto !important;
+}
+.card .card-body .card-title {
+  padding-top: 5px;
+}
+.card .card-body p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.card .card-icons .fa-times {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: #2c3131c7;
+  cursor: pointer;
+}
+
+/* Start Resonsive */
+
+@media (max-width: 991.5px) {
+  .history-page .history-list {
+    margin-top: 35px !important;
+  }
+}
+
+@media (max-width: 767.5px) {
+  .card .card-horizontal .card-icons img {
+    width: 100%;
+  }
+  .card .card-horizontal .card-body {
+    margin-left: 0px !important;
+    padding-left: 10px !important;
+  }
+}
+
+/* End Resonsive */

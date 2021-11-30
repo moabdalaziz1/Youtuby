@@ -1,0 +1,49 @@
+body {
+  overflow-x: hidden;
+}
+.channel-page .banner .social-media {
+  position: absolute;
+  right: 10px;
+  bottom: 18px;
+}
+.channel-page .banner .subscribe {
+  position: absolute;
+  left: 10px;
+  bottom: 18px;
+}
+.channel-page .banner .subscribe button:hover {
+  background-color: #dc3545;
+}
+.video-section .card:hover {
+  transform: translateY(0%) !important;
+}
+time {
+  font-size: 13px !important;
+}
+.card .card-icons .fa-play {
+  right: 45% !important;
+}
+
+/* Start Responsive */
+
+@media (max-width: 561px) {
+  .navbar .navbar-nav .nav-item {
+    font-size: 13px;
+  }
+}
+@media (max-width: 991.5px) {
+  .channel-page .banner img {
+    margin-top: 23px;
+  }
+  .channel-page .banner .social-media a img {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 645px) {
+  .channel-page .banner .social-media,
+  .channel-page .banner .subscribe button {
+    font-size: 11px;
+  }
+}
+
+/* End Responsive */

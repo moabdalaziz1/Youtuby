@@ -1,0 +1,75 @@
+body {
+  overflow-x: hidden;
+}
+.card:hover {
+  transform: translateY(0%) !important;
+}
+.watch-section {
+  position: relative;
+  padding-top: 70px !important;
+}
+.watch-section .watch-icons {
+  position: absolute;
+  bottom: 5px;
+}
+.watch-icons {
+  font-size: 23px;
+  cursor: pointer;
+}
+.watch-icons span {
+  font-size: 20px;
+}
+.card .card-body {
+  height: auto !important;
+  overflow: auto !important;
+}
+.public-comments textarea:focus {
+  box-shadow: none;
+}
+.card-inner {
+  display: none;
+}
+.card .card-icons .fa-play {
+  right: 47%;
+  font-size: 20px;
+}
+.card .card-block p {
+  font-weight: bold;
+}
+.card .card-block .card-text {
+  font-weight: normal;
+}
+.card .card-block .channel-img > span {
+  font-size: 16px;
+}
+
+/* Start Responsive */
+
+@media (max-width: 991.5px) {
+  .watch-section {
+    padding-right: 8px;
+  }
+  .watch-section .card .card-block {
+    height: 260px;
+  }
+  .card .card-icons .fa-play {
+    font-size: 27px;
+  }
+}
+@media (max-width: 767.5px) {
+  .watch-section {
+    padding-left: 8px;
+  }
+}
+@media (max-width: 575px) {
+  .watch-section .card .card-block {
+    height: 300px;
+  }
+}
+@media (max-width: 645px) {
+  .card .card-inner .reply-time {
+    font-size: 10px;
+  }
+}
+
+/* End Responsive */
